@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+#top-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+#top-nav input {
+    padding: .5rem 1rem;
+    width: 20rem;
+}
+#bottom-nav{
+    display: flex;
+    list-style: none;
+    gap: 5rem;
+    padding: .5rem 0;  
+}
+#ul-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bannerImage {
+    background-image: url("https://nikeco.vtexassets.com/assets/vtex.file-manager-graphql/images/c8d4bef2-7059-40d9-a8c4-2d0d370dfa67___6cdb83117bf576e809fb927c78a8ea6d.png");
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.list-products{
+    height: 14rem;
+    width: 10rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 4px 8px rgba(106, 66, 216, 0.7);
+    padding: .5rem;
+}
+#productos-destacados{
+    display: flex;
+    gap: 2rem;
+    position: absolute;
+    top: 720px;
+    font-size: small;
+}
+#footer{
+    margin-top: 15rem;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+.productos-normales{
+    height: 20rem;
+    width: 20rem;
+    box-shadow: 0px 4px 8px rgb(0, 0, 0,0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+#image1{
+    background-image: url("/W+NIKE+DUNK+LOW+VDAY.png");
+    background-size: cover;
+    width: 80%;
+    height: 90%;
+}
+#image2{
+    background-image: url("/W+NIKE+DUNK+LOW.png");
+    background-size: cover;
+    width: 80%;
+    height: 90%;
+}
+#image3{
+    background-image: url("/W+NIKE+DUNK+LOW\ \(1\).png");
+    background-size: cover;
+    width: 80%;
+    height: 90%;
+}
+#destacado-1{
+    background-image: url("/NIKE+PREMIUM+TAG+FOB.png");
+    background-size: cover;
+    width: 90%;
+    height: 100%;
+}
+#destacado-2{
+    background-image: url("/NIKE+PREMIUM+KEY+HOLDER.png");
+    background-size: cover;
+    width: 90%;
+    height: 100%;
+}
+#destacado-3{
+    background-image: url("/NIKE+HEADBANDS+6+PK+PRINTED.png");
+    background-size: cover;
+    width: 90%;
+    height: 100%;
+}
+#destacado-4{
+    background-image: url("/NAN+NIKE+TWO-POM+PEAK+BABY+TRA.png");
+    background-size: cover;
+    width: 90%;
+    height: 100%;
+}
